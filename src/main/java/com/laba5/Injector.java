@@ -1,3 +1,5 @@
+package com.laba5;
+
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

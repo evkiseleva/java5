@@ -1,4 +1,6 @@
-public class OtherImpl implements  SomeInterface{
+package com.laba5;
+
+public class OtherImpl implements SomeInterface {
     @Override
     public void doSomething() {
         System.out.println("B");
