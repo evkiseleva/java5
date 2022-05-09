@@ -1,0 +1,2 @@
+com.laba5.SomeInterface= com.laba5.SomeImpl
+com.laba5.SomeOtherInterface= com.laba5.SODoer
