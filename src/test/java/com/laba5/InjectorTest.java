@@ -19,5 +19,10 @@ class InjectorTest {
         SomeBean someBean = injector.inject(new SomeBean());
         assertTrue(field1.get(someBean) instanceof SomeImpl);
         assertTrue(field2.get(someBean) instanceof SODoer);
+        injector.setProperites("file2.txt");
+        someBean = injector.inject(new SomeBean());
+        assertTrue(field1.get(someBean) instanceof OtherImpl);
+        assertTrue(field2.get(someBean) instanceof SODoer);
+
     }
 }

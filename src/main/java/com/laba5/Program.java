@@ -13,5 +13,8 @@ public class Program {
         Injector injector = new Injector("file.txt");
         SomeBean someBean = injector.inject(new SomeBean());
         someBean.foo();
+        injector.setProperites("file2.txt");
+        someBean = injector.inject(new SomeBean());
+        someBean.foo();
     }
 }
